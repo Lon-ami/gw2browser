@@ -1,7 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
 project(gw2browser)
-
-cmake_minimum_required(VERSION 3.0)
-
 set(NAME gw2browser)
 
 include(GNUInstallDirs)
