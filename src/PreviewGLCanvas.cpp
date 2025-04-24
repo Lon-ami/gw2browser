@@ -46,7 +46,7 @@ namespace gw2b {
     }
 
     void RenderTimer::start( ) {
-        wxTimer::Start( 10 );
+        wxTimer::Start( 6.94 );
     }
 
     //----------------------------------------------------------------------------
