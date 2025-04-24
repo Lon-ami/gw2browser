@@ -217,11 +217,11 @@ namespace gw2b {
     }
 
     void Renderer::render() {
-        // Get current time
-        auto currentTime = Time::now( );
-        // Get time elapsed
-        m_deltaTime = std::chrono::duration_cast<std::chrono::duration<double>>( currentTime - m_oldstartTime ).count( );
-        m_oldstartTime = currentTime;
+        // // Get current time
+        // auto currentTime = Time::now( );
+        // // Get time elapsed
+        // m_deltaTime = std::chrono::duration_cast<std::chrono::duration<double>>( currentTime - m_oldstartTime ).count( );
+        // m_oldstartTime = currentTime;
 
         // Check if shader is properly loaded
         if ( m_shaders.empty( ) ) {
@@ -306,20 +306,20 @@ namespace gw2b {
         if ( m_statusText ) {
             this->displayStatusText( );
 
-            // fps meter
-            m_frameCounter++;
-            // Get time elapsed
-            m_fpsDiffTime = std::chrono::duration_cast<std::chrono::duration<double>>( currentTime - m_fpsStartTime ).count( );
-
-            if ( m_fpsDiffTime > 0.5 && m_frameCounter > 10 ) {
-                // Calculate frame per secound
-                m_fps = static_cast<float>( static_cast<double>( m_frameCounter ) / m_fpsDiffTime );
-                // Reset frame counter
-                m_frameCounter = 0;
-                m_fpsStartTime = Time::now( );
-            }
-            // Draw fps meter to screen
-            m_text->drawText( wxString::Format( wxT( "%.2f fps" ), m_fps ), 0.0f, m_clientSize.y - 48.0f, 1.0f, glm::vec3( 1.0f ) );
+            // // fps meter
+            // m_frameCounter++;
+            // // Get time elapsed
+            // m_fpsDiffTime = std::chrono::duration_cast<std::chrono::duration<double>>( currentTime - m_fpsStartTime ).count( );
+            // 
+            // if ( m_fpsDiffTime > 0.5 && m_frameCounter > 10 ) {
+            //     // Calculate frame per secound
+            //     m_fps = static_cast<float>( static_cast<double>( m_frameCounter ) / m_fpsDiffTime );
+            //     // Reset frame counter
+            //     m_frameCounter = 0;
+            //     m_fpsStartTime = Time::now( );
+            // }
+            // // Draw fps meter to screen
+            // m_text->drawText( wxString::Format( wxT( "%.2f fps" ), m_fps ), 0.0f, m_clientSize.y - 48.0f, 1.0f, glm::vec3( 1.0f ) );
         }
     }
 
