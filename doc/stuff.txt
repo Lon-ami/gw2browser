@@ -637,6 +637,68 @@ File Id     Format      Note
 
 ==============================================================================
 
+Sound
+File Id     Format      Note
+184748      ogg         Charr Theme! Rrawr!
+162177      soundbank   "I'm a Charr" (female)
+162177      soundbank   "I'm a Charr" (male)
+184705      mp3         GW2 Main Theme
+184738      ogg         Charr war music
+463763      mp3         Fear Not This Night
+630036      ogg         SAB music start
+...
+635089      ogg         SAB music end
+908178      ogg         That theme song
+968306      ogg         Some music
+968308      mp3         GW2: HoT Theme
+1062247     ogg         Some music
+1417685     mp3         SAB sound effects start
+...
+1417808     mp3         SAB sound effects end
+1419557     ogg         SAB music
+1419558     ogg         SAB metal music
+1789389     ogg         Need for Speed, Raptor Edition
+1789436     mp3         GW2 Path of Fire Soundtrack - Character Select
+2162479     mp3         Bash The Dragon!
+2198915     mp3         Metal Legion - Metal Legion
+2198917     mp3         Metal Legion - Bound By Blood
+2198919     mp3         Metal Legion - Ballad of Soulkeeper
+
+0-30k People/animal sounds
+~44k pistol/rifle sound
+~55 skill/buffs sounds
+~55335 mesmer
+~87773 clone shatter?
+~111004 UI traits sound
+~334530 charr emotes
+~510481 bell sound
+~558315 sab sounds
+~620777 event/chest open
+~681425 leyline anomaly appear
+~727519 harp sounds
+~818732 citar sounds?
+~955235 bass
+~961783 Chak
+~991201, 1009725 Chronomancer
+~1024032 flute harvest
+~1300781 Guild anthems
+~1725185 Siren's landing music orbs
+~1762004, ~1876470 griffon sounds
+~1764588 Mirage
+~1767898 Bunny
+~1818678 Kormir Heart in Crystal Desert sounds
+~1821264 Delrimor bag things room
+~1983428 nine-tail jackal skin
+~2014664 Minstrel
+~2014674 Musical Horn
+~2074361 some music thing
+~2074468 Minstrel unsheath
+~2082411 LS4 Zephyr? singing
+~2139714, 2140712 skyscale
+~2155783 some string instrument sounds
+
+==============================================================================
+
 Other stuff
 File Id     Format      Note
 13829       model       Old Gaheron Baelfire
@@ -737,7 +799,6 @@ File Id     Format      Note
 91436       model       Charr Command Core
 91516       model       Charr Black Catadel Hero's Canton interor
 91518       model       Charr Black Citadel armory
-184748      ogg         Charr Theme! Rrawr!
 104223      model       Dead Dragon
 104246      model       Snaff
 104274      model       Giganticus Lupicus
@@ -755,10 +816,6 @@ File Id     Format      Note
 106933      model       Charr bomb shell
 106935      model       Turret
 106980      model       Charr poster
-162177      soundbank   "I'm a Charr" (female)
-162177      soundbank   "I'm a Charr" (male)
-184705      mp3         GW2 Main Theme
-184738      ogg         Charr war music
 187834      model       Charr sigil (front of smelter)
 187835      model       Charr stature axe
 187836      model       Charr stature bow
@@ -771,15 +828,14 @@ File Id     Format      Note
 230462      model       Lion Guard's ship
 231336      model       Lion Guard's ship
 234532      model       Twilight Arbor Nightmare Tree
-234810      model       Teq hi-res
-242055      model       Teq hi-res
+234810      model       Tequatl the Sunless hi-res
+242055      model       Tequatl the Sunless hi-res
 242236      model       Ship
 242240      model       Ship
 299986      model       Charr tank (small)
-408554      model       Teq low-res
+408554      model       Tequatl the Sunless low-res
 454456      model       Zhaitan
-463763      mp3         Fear Not This Night
-469869      model       Teq
+469869      model       Tequatl the Sunless
 506537      model       Mad king's clock tower
 506586      model       Mad king's clock tower
 514529      model       Bug eye monster in fractal
@@ -792,10 +848,7 @@ File Id     Format      Note
 565039      model       SAB King Toad
 582708      model       Ship
 591753      model       The Shatterer hologram
-630036      ogg         SAB music start
-...
 633381      model       SAB flying path
-635089      ogg         SAB music end
 681491      model       Some kind of UFO?
 712271      model       Twisted Marionnete
 728627      model       Mechanical Devourer
@@ -803,17 +856,32 @@ File Id     Format      Note
 740389      model       LA big digging machine, inside
 757509      model       Robot with jetpack
 798269      model       Monkey King
+830707      model       Mordrem wolf
+855880      model       Waypoint
+867737      model       Norn bear form
 870928      model       House
+903742      model       Mordrem Teragriff
+903756      model       Mordrem dragon
+904463      model       Charr Touch
 904350      model       Marjory Delaqua and Kasmeer Meade
 905457      model       Pact air ship
-908178      ogg         That theme song
 908287      model       The Lost Ark
 915401      model       Cute male Charr NPC
+919310      model       gryphon
+930019      model       Mordrem dragon
+947757      model       lion pistol
 959297      model       Ventari's Tablet
-968306      ogg         Some music
-968308      mp3         GW2: HoT Theme
+956206      model       Stonehead
+956230      model       Arrowhead
+956415      model       File Indirection. If you see this, it is a bug and should be reported.
+956732      model       Tengu
+960236      model       Smoke Scale
+962028      model       Maguuma Jungle manance (pocker raptor)... nope!
+977230      model       Balthazar outfit helm (charr)
+977241      model       Balthazar outfit helm (charr)
+977436      model       rainbow unicorn
+977512      model       salad spear
 1058446     model       HoT metal tower
-1062247     ogg         Some music
 1168588     model       Mordremoth avatar
 1213614     model       A noodle
 1213878     model       Wyvern boss
@@ -821,11 +889,6 @@ File Id     Format      Note
 1226732     model       Drake
 1299838     model       Gorseval the Multifarious
 1300015     model       Charr blade armor
-1417685     mp3         SAB sound effects start
-...
-1417808     mp3         SAB sound effects end
-1419557     ogg         SAB music
-1419558     ogg         SAB metal music
 1465971     model       Pact air ship
 1466077     model       Lion Guard's ship
 1624022     model       Chicken
@@ -859,8 +922,6 @@ File Id     Format      Note
 1769037     model       tablet with unknown text
 1769063     model       a stick
 1769199     model       Taimi in mech golem
-1789389     ogg         Need for Speed, Raptor Edition
-1789436     mp3         GW2 Path of Fire Soundtrack - Character Select
 1791124     model       painting start
 ...
 1791127     model       painting end
@@ -1058,7 +1119,6 @@ File Id     Format      Note
 2162460     model       skyscale horns
 2162463     model       skyscale horns
 2162466     model       Dragon Bash 2019 helm
-2162479     mp3         Bash The Dragon!
 2163000     model       Legendary Precursors end
 ...
 2163031     model       Legendary Precursors end
@@ -1089,9 +1149,6 @@ File Id     Format      Note
 2198706     model       Charr Imperator Efram Greetsglory
 2198717     model       Charr Imperator Ruinbanger (Bangar Ruinbringer)
 2198806     model       Elder Dragon Aurene
-2198915     mp3         Metal Legion - Metal Legion
-2198917     mp3         Metal Legion - Bound By Blood
-2198919     mp3         Metal Legion - Ballad of Soulkeeper
 2199266     model       Charr bow
 2199272     model       Charr guitar
 2199279     model       Charr microphone
@@ -1196,6 +1253,7 @@ File Id     Format      Note
 2292651     model       Ash Legion bag
 2292671     model       charr radio
 2293433     model       charr machinegun
+2303429     model       Modrem Alpha mount (missing head)
 2329212     model       skyscale mount skin (furry dragon)
 2352289     model       raptor mount skin (chocobo)
 2408475     model       skyscale mount skin (furry dragon)
